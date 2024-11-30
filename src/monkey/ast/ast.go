@@ -13,7 +13,7 @@ type Statement interface {
 
 type Expression interface {
 	Node
-	etatementNode()
+	expressionNode()
 }
 
 type Program struct {
